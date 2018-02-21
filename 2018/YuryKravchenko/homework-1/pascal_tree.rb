@@ -10,7 +10,7 @@ def pascal(n)
         base = base * ( r - k + 1 ) / k
         tree.push base
         k += 1}
-    p tree}
+      p tree}
 end
 print 'Введите глубину дерева: '
 n = gets.chomp.to_i
